@@ -20,7 +20,7 @@ Instead of relying on a system-wide installation of Rust, you can use `Rustup` t
 
 To do this, you can follow the installation instructions for Rustup at [https://rustup.rs](https://rustup.rs/).
 
-The page will guide ask you to run the command somehting like below:
+The page will ask you to run the command somehting like below:
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
