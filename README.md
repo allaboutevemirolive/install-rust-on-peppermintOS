@@ -40,5 +40,21 @@ These tools can coexist with a system-wide installation of Rust and allow you to
 
 You can find more information on using a Rust version manager in the [Rust documentation](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html#working-with-nightly-rust).
 
+## 4. Verify `rustfmt`
+
+You can verify rustfmt by running the following command in your terminal:
+
+```
+rustup component list
+```
+This will list all the components installed for your Rust toolchain, and you should see rustfmt listed among them. 
+
+If it's not listed, then you can run the command below to install it.
+```
+rustup component add rustfmt
+```
+
+
+
 
 
